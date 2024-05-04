@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(101, 101, 101);
+}
+
+.main{
+    width: 100%;
+    /* background-color: orange; */
+}
+
+.d-img{
+    /* background-color: aqua; */
+    width: 80%;
+    margin: auto;
+    
+}
+
+.pic{
+    width: 100%;
+}
+
+.digits{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    position: fixed;
+    top: 120px;
+    left:225px;
+    /* top: 14%;
+    left: 14%; */
+    margin: auto;
+    font-size: xx-large;
+}
+/* .clock{
+    display: flex;
+    width: 100%;
+    background-color: gainsboro;
+    justify-content: space-around;
+} */
+
+h1{
+    
+    text-align: center;
+    font-family: 'Orbitron';
+}
+.t{
+    /* background-color: aqua; */
+    width: 18%;
+}
+.n{
+    /* background-color: blueviolet; */
+    width: 5%;
+}
+.lt{
+    /* background-color: brown; */
+    width: 20%;
+}
+
+.feature{
+    /* background-color: black; */
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+button{
+    font-size: 200%;
+    border-radius: 100px;
+    color: white;
+    background-color: black;
+    box-shadow: 0 0 10px white; 
+}
+
+#b-s,#b-p{
+    margin-right: 2%;
+}
+#b-l{
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 1500px){
+    .digits{
+        width: 65%;
+        position: fixed;
+        top: 85px;
+        left: 240px;
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+    .digits{
+        width: 65%;
+        position: fixed;
+        top: 82px;
+        left: 200px;
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .digits{
+        width: 65%;
+        position: fixed;
+        top: 65px;
+        left: 160px;
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .digits{
+        width: 65%;
+        position: fixed;
+        top: 62px;
+        left: 130px;
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    .digits{
+        width: 65%;
+        position: fixed;
+        top: 52px;
+        left: 115px;
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .digits{
+        width: 65%;
+        position: fixed;
+        top: 42px;
+        left: 105px;
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .digits{
+        width: 65%;
+        position: fixed;
+        top: 42px;
+        left: 90px;
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .digits{
+        width: 65%;
+        position: fixed;
+        top: 35px;
+        left: 78px;
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .digits{
+        width: 55%;
+        position: fixed;
+        top: 35px;
+        left: 85px;
+        font-size: x-small;
+    }
+    .feature{
+        width: 100%;
+    }
+    button{
+        font-size: large; 
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .digits{
+        width: 55%;
+        position: fixed;
+        top: 25px;
+        left: 65px;
+        font-size: x-small;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .digits{
+        width: 55%;
+        position: fixed;
+        top: 20px;
+        left: 60px;
+        font-size: x-small;
+    }
+}
